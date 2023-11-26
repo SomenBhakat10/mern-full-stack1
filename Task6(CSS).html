@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .Container {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+      }
+      .Image {
+        width: 200px;
+      }
+      .Credentials {
+        display: block;
+        align-items: end;
+        margin-right: 525px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <img src="download.png" alt="Dp" class="Image" />
+      <div class="Credentials">
+        <h3>Username</h3>
+      </div>
+      <input type="text" style="width: 600px" />
+      <div class="Credentials">
+        <h3>Password</h3>
+      </div>
+      <input type="password" style="width: 600px" />
+      <button
+        style="
+          background-color: green;
+          margin-top: 10px;
+          width: 610px;
+          font-size: 20px;
+          color: white;
+        "
+      >
+        Login
+      </button>
+      <div style="margin-top: 10px; margin-right: 500px;">
+        <input type="checkbox" />
+        <label>Remember me</label>
+      </div>
+      <div style="margin-top: 10px;">
+        <button style="background-color: red; display: inline;">Cancel</button>
+        <span style="margin-left: 450px;">Forgot password</span>
+      </div>
+    </div>
+  </body>
+</html>

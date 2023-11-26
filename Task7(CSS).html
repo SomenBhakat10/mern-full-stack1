@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .Container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 100px;
+            background-color: aquamarine;
+            width: 500px;
+            height: 500px;
+        }
+        .Second{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .Contents{
+            font-size: 25px;
+        }
+    </style>
+  </head>
+  <body >
+    <div class="Container">
+        <div class="Second" style="background-color: blueviolet;">
+            <div class="Contents">
+                Name:
+                <input type="text">
+            </div>
+            <div class="Contents">
+                Email:
+                <input type="text">
+            </div>
+            <div class="Contents">
+                Password:
+                <input type="text">
+            </div>
+            <div class="Contents">
+                Phone:
+                <input type="number">
+            </div>
+            <div class="Contents">
+                Gender:
+                <label >Male</label>
+                <input type="radio">
+                <label >FeMale</label>
+                <input type="radio">
+            </div>
+            <div class="Contents">
+                Languages:
+                <input type="text">
+            </div>
+            <div class="Contents">
+                Zip code:
+                <input type="text">
+            </div>
+            <div class="Contents">
+                About:
+                <input type="text">
+            </div>
+              <button style="background-color: white;font-size: 20px;">Register</button>
+        </div>
+    </div>
+  </body>
+</html>
